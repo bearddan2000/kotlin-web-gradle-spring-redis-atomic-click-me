@@ -1,0 +1,6 @@
+version: '3.4'
+services:
+  java-srv:
+    build: java-srv
+    ports:
+      - "80:8080"
